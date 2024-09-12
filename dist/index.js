@@ -50932,6 +50932,7 @@ try {
     core.setFailed(error.message);
 }
 
+
 async function uploadImage(githubToken, string) {
     // const {owner, repo} = {owner: "xiaoyvyv", repo: "bangumi-data"};
     const {owner, repo} = github.context.repo;
