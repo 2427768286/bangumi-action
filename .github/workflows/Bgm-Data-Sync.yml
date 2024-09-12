@@ -17,7 +17,7 @@ jobs:
         uses: xiaoyvyv/bangumi-action@v1.1.17
         with:
           github-token: '${{secrets.GITHUB_TOKEN}}'
-          bgm-user-id: '563319'
+          bgm-user-id: 'strdm'
           bgm-img-path: 'bgm/card.svg'
 
       - name: Get the output image url
